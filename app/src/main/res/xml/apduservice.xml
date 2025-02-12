@@ -1,0 +1,6 @@
+<offhost-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_name">
+    <aid-group android:description="@string/aid_group_name" android:category="other">
+        <aid-filter android:name="A000000909ACCE5501"/>
+    </aid-group>
+</offhost-apdu-service>

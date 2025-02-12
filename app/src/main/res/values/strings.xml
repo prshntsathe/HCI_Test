@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">nfc</string>
+    <string name="service_name">My NFC HCE Service</string>
+    <string name="aid_group_name">Custom AID Group</string>
+</resources>
