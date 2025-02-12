@@ -1,0 +1,4 @@
+com/example/nfc/test/BuildConfig.java
+ com.example.nfc.test.BuildConfig
+com/example/nfc/ExampleInstrumentedTest.java
+ com.example.nfc.ExampleInstrumentedTest

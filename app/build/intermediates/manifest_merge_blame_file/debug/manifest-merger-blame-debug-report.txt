@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nfc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.NFC" />
+11-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:49:5-62
+11-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:49:22-59
+12
+13    <uses-feature android:name="android.hardware.nfc" />
+13-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:50:5-57
+13-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:50:19-54
+14    <uses-feature
+14-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:51:5-84
+15        android:name="android.hardware.nfc.hce"
+15-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:51:19-58
+16        android:required="true" />
+16-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:51:59-82
+17
+18    <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
+18-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:52:5-80
+18-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:52:22-77
+19    <uses-permission android:name="android.permission.ACCESS_SECURE_ELEMENT" />
+19-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:53:5-79
+19-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:53:22-77
+20
+21    <application
+21-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:6:5-45:19
+22        android:allowBackup="true"
+22-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /usr/local/google/home/sathep/.gradle/caches/transforms-2/files-2.1/476e418bae6a1646436b14a2350f3166/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:8:9-43
+26        android:label="@string/app_name"
+26-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:9:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:10:9-54
+28        android:supportsRtl="true"
+28-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:11:9-35
+29        android:theme="@style/AppTheme" >
+29-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:12:9-40
+30        <activity
+30-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:13:9-19:20
+31            android:name="com.example.nfc.MainActivity"
+31-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:13:19-47
+32            android:exported="true" >
+32-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:14:13-36
+33            <intent-filter>
+33-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:15:13-18:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:16:17-69
+34-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:16:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:17:17-77
+36-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:17:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <receiver
+40-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:21:9-33:20
+41            android:name="com.example.nfc.NfcHciEventReceiver"
+41-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:21:19-54
+42            android:exported="true"
+42-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:22:13-36
+43            android:permission="android.permission.NFC_TRANSACTION_EVENT" >
+43-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:23:13-74
+44            <intent-filter>
+44-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:24:13-32:29
+45                <action android:name="android.nfc.action.TRANSACTION_DETECTED" />
+45-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:25:17-81
+45-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:25:25-79
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:26:17-75
+47-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:26:27-73
+48
+49                <data
+49-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:27:17-31:44
+50                    android:host="secure"
+50-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:28:21-42
+51                    android:pathPattern="/eSE.*/.*"
+51-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:29:21-52
+52                    android:port="0"
+52-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:30:21-37
+53                    android:scheme="nfc" />
+53-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:31:21-41
+54            </intent-filter>
+55        </receiver>
+56
+57        <service
+57-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:35:9-44:19
+58            android:name="com.example.nfc.MyOffHostApduService"
+58-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:35:18-54
+59            android:exported="true"
+59-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:36:13-36
+60            android:permission="android.permission.BIND_NFC_SERVICE" >
+60-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:37:13-69
+61            <intent-filter>
+61-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:39:13-41:29
+62                <action android:name="android.nfc.cardemulation.action.OFF_HOST_APDU_SERVICE" />
+62-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:40:17-96
+62-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:40:25-94
+63            </intent-filter>
+64
+65            <meta-data
+65-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:42:13-43:54
+66                android:name="android.nfc.cardemulation.off_host_apdu_service"
+66-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:42:24-86
+67                android:resource="@xml/apduservice" />
+67-->/usr/local/google/home/sathep/AndroidStudioProjects/android-nfc-hci-example/app/src/main/AndroidManifest.xml:43:17-52
+68        </service>
+69    </application>
+70
+71</manifest>

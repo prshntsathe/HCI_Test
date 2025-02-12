@@ -1,0 +1,2 @@
+com/example/nfc/ExampleUnitTest.java
+ com.example.nfc.ExampleUnitTest

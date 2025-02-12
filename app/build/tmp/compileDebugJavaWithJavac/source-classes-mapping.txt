@@ -1,0 +1,23 @@
+com/example/nfc/record/UriRecord.java
+ com.example.nfc.record.UriRecord
+com/example/nfc/BuildConfig.java
+ com.example.nfc.BuildConfig
+com/example/nfc/MyOffHostApduService.java
+ com.example.nfc.MyOffHostApduService
+com/example/nfc/parser/NdefMessageParser.java
+ com.example.nfc.parser.NdefMessageParser
+ com.example.nfc.parser.NdefMessageParser$1
+com/example/nfc/MainActivity.java
+ com.example.nfc.MainActivity
+ com.example.nfc.MainActivity$1
+com/example/nfc/Utils.java
+ com.example.nfc.Utils
+com/example/nfc/record/SmartPoster.java
+ com.example.nfc.record.SmartPoster
+ com.example.nfc.record.SmartPoster$RecommendedAction
+com/example/nfc/record/TextRecord.java
+ com.example.nfc.record.TextRecord
+com/example/nfc/NfcHciEventReceiver.java
+ com.example.nfc.NfcHciEventReceiver
+com/example/nfc/record/ParsedNdefRecord.java
+ com.example.nfc.record.ParsedNdefRecord
