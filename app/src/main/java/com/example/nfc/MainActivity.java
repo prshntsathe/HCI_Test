@@ -65,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+        nfcHciEventReceiver = new NfcHciEventReceiver(uiHandler);
+        IntentFilter filter = new IntentFilter(NfcAdapter.ACTION_TRANSACTION_DETECTED);
+        registerReceiver(nfcHciEventReceiver, filter);
+
 
         String cert = getCertificateSHA1(getPackageName());
 
@@ -89,9 +93,7 @@ public class MainActivity extends AppCompatActivity {
             nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
         }
 
-        nfcHciEventReceiver = new NfcHciEventReceiver(uiHandler);
-        IntentFilter filter = new IntentFilter("android.nfc.action.TRANSACTION_DETECTED");
-        registerReceiver(nfcHciEventReceiver, filter);
+
     }
 
     private String getCertificateSHA1(String packageName) {

@@ -47,6 +47,7 @@
 
 
     <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.NFC_SECURE_ELEMENT" />
     <uses-feature android:name="android.hardware.nfc" />
     <uses-feature android:name="android.hardware.nfc.hce" android:required="true"/>
     <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
